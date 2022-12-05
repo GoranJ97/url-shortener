@@ -9,7 +9,7 @@ import {
 import { EntityNotFoundError } from 'typeorm';
 import { CustomConflictException } from '../exception/custom-conflict.exception';
 import { CustomBadRequestException } from '../exception/custom-bad-request.exception';
-console.log("sad");
+
 @Injectable()
 export class ErrorResponseService {
   throwError(err) {
